@@ -7,7 +7,7 @@
 
 ## License
 
-This software is released under the [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+This LaTex beamer template is released under the [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 The University of Texas at Dallas logos are for non-commercial and internal University use. Any use of these logos for sponsorships, partnerships or commercial purposes requires approval by the Office of Communications and proof of contractual agreement to use the University marks before being produced. 
 
