@@ -1,0 +1,26 @@
+% https://tex.stackexchange.com/questions/443659/how-to-remove-date-from-footnote-of-madrid-theme-of-beamer-and-use-that-space-fo
+\makeatletter
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertshortauthor\expandafter\ifblank\expandafter{\beamer@shortinstitute}{}{~~(\insertshortinstitute)}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.77\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+      \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}%
+  }%
+  \begin{beamercolorbox}[wd=.08\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}%
+    \usebeamertemplate{page number in head/foot}%
+    \hspace*{2ex} 
+  \end{beamercolorbox}
+  \vskip0pt%
+}
+\makeatother
+%gets rid of bottom navigation symbols
+\setbeamertemplate{navigation symbols}{}
+%gets rid of bottom navigation bars
+% \setbeamertemplate{footline}[frame number]{}
+%gets rid of footer
+% \setbeamertemplate{footline}{}

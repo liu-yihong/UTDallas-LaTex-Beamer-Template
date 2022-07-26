@@ -1,0 +1,54 @@
+\documentclass[
+xcolor={svgnames},
+hyperref={pagebackref,bookmarks}
+]{beamer}
+\mode<presentation> % https://tex.stackexchange.com/questions/263440/what-are-the-available-modes-in-beamer
+\input{includes/tex/packages-import.tex}
+\input{includes/tex/colors-definition.tex}
+\input{includes/tex/footline-definition.tex}
+\input{includes/tex/presentation-info.tex}
+\input{includes/tex/doc-metadata.tex}
+
+\title{\presentationtitle}
+\subtitle{\presentationsubtitle}
+\author{\presenter}
+\institute[UTD]{
+    \school\\
+    \university\\
+    {\color{DarkBlue} \faIcon{envelope-open-text} \email}\\
+    {\color{DarkBlue} \faIcon{globe} \personalwebsite}
+    }
+\date{\today}
+\input{includes/tex/logo.tex}
+
+\begin{document}
+
+\maketitle
+
+\section{TOC}
+\begin{frame}{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{Sample frame title}
+
+In this slide, some important text will be
+\alert{highlighted} because it's important.
+Please, don't abuse it.
+
+\begin{block}{Remark}
+Sample text
+\end{block}
+
+\begin{alertblock}{Important theorem}
+Sample text in red box
+\end{alertblock}
+
+\begin{examples}
+Sample text in green box. The title of the block is ``Examples".
+\end{examples}
+
+\end{frame}
+
+\end{document}
