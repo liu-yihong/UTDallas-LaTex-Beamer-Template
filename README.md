@@ -1,5 +1,8 @@
 # UTDallas LaTex Beamer Template
- This repository contains an unofficial LaTex beamer template for the University of Texas at Dallas.
+ This repository contains an unofficial LaTex beamer template for the University of Texas at Dallas (UTDallas).
+ It follows UTDallas [color palette](https://brand.utdallas.edu/graphics-visual-identity/color-palette/) from the University's [brand standards](https://brand.utdallas.edu/).
+ 
+ Rendered slides can be previewed at [here](main.pdf)
  
  ## Cover Page Preview
  
